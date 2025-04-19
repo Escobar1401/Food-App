@@ -14,7 +14,8 @@
   "homepage": "https://escobar1401.github.io/Food-App",
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.5.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
