@@ -7,9 +7,7 @@ interface ButtonSecondaryProps {
 
 function ButtonSecondary({ text = 'Button', link = '#' }: ButtonSecondaryProps) {
     return (
-        <div className="container">
-            <a href={link} className="button-secondary">{text}</a>
-        </div>
+        <a href={link} className="button-secondary">{text}</a>
     )
 }
 
