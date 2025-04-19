@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="container">
         <div className="logo">
-          <img src="./assets/salad-logo.jpg" alt="logo" />
+          <img src="assets/salad-logo.jpg" alt="logo" />
         </div>
         <div className="title">
           <span>Fast Delivery at your doorstep</span>
