@@ -10,6 +10,11 @@
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .button-secondary:hover{
     background-color: var(--button-secondary-background-hover);
