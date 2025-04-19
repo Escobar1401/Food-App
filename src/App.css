@@ -1,13 +1,13 @@
 .container{
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   padding: 20px;
-  background-color: var(--primary-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 .logo{
@@ -20,7 +20,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: var(--secondary-background-color);
+  background-color: var(--primary-background-color);
   object-fit: cover;
   object-position: center;
   padding: 10px;
@@ -31,7 +31,7 @@
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .subtitle{
@@ -40,5 +40,5 @@
   font-weight: 400;
   margin-bottom: 40px;
   max-width: 500px;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
