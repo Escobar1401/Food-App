@@ -1,5 +1,6 @@
 import './App.css'
 import ButtonSecondary from './components/ButtonSecondary'
+import saladLogo from './assets/salad-logo.jpg'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <>
       <div className="container">
         <div className="logo">
-          <img src="/salad-logo.jpg" alt="logo" />
+          <img src={saladLogo} alt="logo" />
         </div>
         <div className="title">
           <span>Fast Delivery at your doorstep</span>
