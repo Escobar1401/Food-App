@@ -2,12 +2,15 @@ import './ButtonSecondary.css'
 
 interface ButtonSecondaryProps {
     text?: string;
+    link?: string;
 }
 
-function ButtonSecondary({ text = 'Button' }: ButtonSecondaryProps) {
+function ButtonSecondary({ text = 'Button', link = '#' }: ButtonSecondaryProps) {
     return (
-        <button className="button-secondary">{text}</button>
-        )
+        <div className="container">
+            <a href={link} className="button-secondary">{text}</a>
+        </div>
+    )
 }
 
 export default ButtonSecondary

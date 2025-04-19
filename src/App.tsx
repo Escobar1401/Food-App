@@ -15,7 +15,7 @@ function App() {
         <div className="subtitle">
           <span>Home delivery and online reservations system for restaurants & cafe</span>
         </div>
-        <ButtonSecondary text="let´s Explore" />
+        <ButtonSecondary text="let´s Explore" link="" />
       </div>
     </>
   )
