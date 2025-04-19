@@ -1,40 +1,40 @@
 :root{
-    --primary-background-color: #ffffff;
-    --secondary-background-color: #4CAF50;
+    --primary-background-color: white;
+    --secondary-background-color: green;
     --primary-text-color: #333333;
-    --secondary-text-color: #ffffff;
+    --secondary-text-color: white;
 
     /* Button AddCart colors */
-    --button-addcart-background: #4CAF50;
-    --button-addcart-color: #ffffff;
+    --button-addcart-background: green;
+    --button-addcart-color: white;
 
     /* ButtonPrimary colors */
-    --button-primary-background: #4CAF50;
-    --button-primary-color: #ffffff;
+    --button-primary-background: green;
+    --button-primary-color: white;
     --button-primary-background-hover: #45a049;
-    --button-primary-color-hover: #ffffff;
+    --button-primary-color-hover: white;
 
     /* ButtonSecondary colors */
-    --button-secondary-background: #ffffff;
-    --button-secondary-color: #4CAF50;
+    --button-secondary-background: white;
+    --button-secondary-color: green;
     --button-secondary-background-hover: #f0f0f0;
     --button-secondary-color-hover: #45a049;
 
     /* ButtonFilter colors */
-    --button-filter-background: #4CAF50;
-    --button-filter-color: #ffffff;
+    --button-filter-background: green;
+    --button-filter-color: white;
     --button-filter-background-hover: #45a049;
-    --button-filter-color-hover: #ffffff;
+    --button-filter-color-hover: white;
 
     /* SearchBar colors */
-    --background-search: #ffffff;
+    --background-search: white;
     --color-search: #333333;
 
     /* Card colors */
-    --background-card: #ffffff;
+    --background-card: white;
     --color-card: #333333;
     --shadow-color-card: rgba(0, 0, 0, 0.1);
-    --favorite-color-card: #ffffff;
+    --favorite-color-card: white;
     --favorite-stroke-card: #b4b4b4;
     --favorite-color-card-hover: #ff0000;
     --favorite-stroke-card-hover: #ff0000;
