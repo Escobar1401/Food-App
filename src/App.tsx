@@ -2,7 +2,7 @@ import './App.css'
 import ButtonSecondary from './components/ButtonSecondary'
 import saladLogo from './assets/salad-logo.jpg'
 import { Routes, Route } from 'react-router-dom'
-import Home from './components/Home'
+import Home from './components/Home.tsx'
 
 function App() {
   return (
