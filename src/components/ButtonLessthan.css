@@ -1,0 +1,18 @@
+.buttonlessthan{
+    background-color: var(--button-filter-background);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.buttonlessthan:hover{
+    cursor: pointer;
+    background-color: var(--button-filter-background-hover);    
+}
+.buttonlessthan > img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}

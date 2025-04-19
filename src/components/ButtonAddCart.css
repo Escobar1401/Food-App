@@ -1,0 +1,14 @@
+.buttonaddcart{
+    font-size: 50px;
+    background-color: var(--button-addcart-background);
+    color: var(--button-addcart-color);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 0px 30px 0px;
+}
+.buttonaddcart:hover{
+    cursor: pointer;
+}

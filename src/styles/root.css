@@ -1,0 +1,45 @@
+:root{
+    --primary-background-color: #f0f0f0;
+    --secondary-background-color: green;
+    --primary-text-color: green;
+    --secondary-text-color: white;
+
+    /* Button AddCart colors */
+    --button-addcart-background: green;
+    --button-addcart-color: white;
+
+    /* ButtonPrimary colors */
+    --button-primary-background: green;
+    --button-primary-color: white;
+    --button-primary-background-hover: #006400;
+    --button-primary-color-hover: white;
+
+    /* ButtonSecondary colors */
+    --button-secondary-background: white;
+    --button-secondary-color: green;
+    --button-secondary-background-hover: white;
+    --button-secondary-color-hover: green;
+
+    /* ButtonFilter colors */
+    --button-filter-background: green;
+    --button-filter-color: white;
+    --button-filter-background-hover: #006400;
+    --button-filter-color-hover: white;
+
+    /* SearchBar colors */
+    --background-search: white;
+    --color-search: black;
+
+    /* Card colors */
+    --background-card: white;
+    --color-card: black;
+    --shadow-color-card: #000000;
+    --favorite-color-card: white;
+    --favorite-stroke-card: rgb(180, 180, 180);
+    --favorite-color-card-hover: red;
+    --favorite-stroke-card-hover: red;
+    --imagen-card-shadow: rgb(180, 180, 180);
+    --color-card-description: rgb(180, 180, 180);
+    --star-card-color: gold;
+    --star-card-color-hover: rgb(180, 180, 180);
+}

@@ -1,0 +1,11 @@
+.buttonchat{
+    width: 50px;
+    height: 50px;
+}
+.buttonchat > img{
+    width: 100%;
+    height: 100%;
+}
+.buttonchat:hover{
+    cursor: pointer;
+}
