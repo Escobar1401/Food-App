@@ -1,8 +1,8 @@
 :root{
     --primary-background: #ffffff;
     --secondary-background: #4CAF50;
-    --primary-text-color: #333333;
-    --secondary-text-color: #ffffff;
+    --primary-text: #333333;
+    --secondary-text: #ffffff;
 
     /* Button AddCart colors */
     --button-addcart-background: #4CAF50;
