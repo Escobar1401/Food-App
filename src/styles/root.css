@@ -1,45 +1,45 @@
 :root{
-    --primary-background: #ffffff;
-    --secondary-background: #4CAF50;
-    --primary-text: #333333;
-    --secondary-text: #ffffff;
+    --primary-background-color: #ffffff;
+    --secondary-background-color: #4CAF50;
+    --primary-text-color: #333333;
+    --secondary-text-color: #ffffff;
 
     /* Button AddCart colors */
-    --button-addcart-background: #4CAF50;
+    --button-addcart-background-color: #4CAF50;
     --button-addcart-color: #ffffff;
 
     /* ButtonPrimary colors */
-    --button-primary-background: #4CAF50;
+    --button-primary-background-color: #4CAF50;
     --button-primary-color: #ffffff;
-    --button-primary-background-hover: #45a049;
+    --button-primary-background-hover-color: #45a049;
     --button-primary-color-hover: #ffffff;
 
     /* ButtonSecondary colors */
-    --button-secondary-background: #ffffff;
+    --button-secondary-background-color: #ffffff;
     --button-secondary-color: #4CAF50;
-    --button-secondary-background-hover: #f0f0f0;
+    --button-secondary-background-hover-color: #f0f0f0;
     --button-secondary-color-hover: #45a049;
 
     /* ButtonFilter colors */
-    --button-filter-background: #4CAF50;
+    --button-filter-background-color: #4CAF50;
     --button-filter-color: #ffffff;
-    --button-filter-background-hover: #45a049;
+    --button-filter-background-hover-color: #45a049;
     --button-filter-color-hover: #ffffff;
 
     /* SearchBar colors */
-    --background-search: #ffffff;
-    --color-search: #333333;
+    --background-search-color: #ffffff;
+    --color-search-color: #333333;
 
     /* Card colors */
-    --background-card: #ffffff;
-    --color-card: #333333;
-    --shadow-color-card: rgba(0, 0, 0, 0.1);
-    --favorite-color-card: #ffffff;
-    --favorite-stroke-card: #b4b4b4;
-    --favorite-color-card-hover: #ff0000;
-    --favorite-stroke-card-hover: #ff0000;
-    --imagen-card-shadow: #b4b4b4;
-    --color-card-description: #b4b4b4;
+    --background-card-color: #ffffff;
+    --color-card-color: #333333;
+    --shadow-color-card-color: rgba(0, 0, 0, 0.1);
+    --favorite-color-card-color: #ffffff;
+    --favorite-stroke-card-color: #b4b4b4;
+    --favorite-color-card-hover-color: #ff0000;
+    --favorite-stroke-card-hover-color: #ff0000;
+    --imagen-card-shadow-color: #b4b4b4;
+    --color-card-description-color: #b4b4b4;
     --star-card-color: #ffd700;
     --star-card-color-hover: #b4b4b4;
 }
