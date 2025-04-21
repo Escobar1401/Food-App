@@ -1,7 +1,7 @@
 import './App.css'
 import ButtonSecondary from './components/ButtonSecondary'
 import saladLogo from './assets/salad-logo.jpg'
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
 
 function App() {
