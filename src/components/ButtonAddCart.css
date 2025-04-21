@@ -1,6 +1,6 @@
 .buttonaddcart{
     font-size: 50px;
-    background-color: var(--button-addcart-background);
+    background-color: var(--button-addcart-background-color);
     color: var(--button-addcart-color);
     width: 70px;
     height: 70px;

@@ -1,12 +1,12 @@
 .card{
     width: 300px;
     height: 400px;
-    background-color: var(--background-card);
+    background-color: var(--background-card-color);
     border-radius: 30px;
     box-shadow: 0 0 10px 0 var(--shadow-color-card);
     position: relative;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    display: flex;
+    flex-direction: column;
 }
 .top{
     display: flex;
@@ -15,25 +15,26 @@
     position: relative;
 }
 .favorite{
-    color: var(--favorite-color-card);
-    -webkit-text-stroke: 2px var(--favorite-stroke-card);
-    font-size: 50px;
+    color: var(--favorite-color-card-color);
+    -webkit-text-stroke: 2px var(--favorite-stroke-card-color);
+    font-size: 40px;
     position: absolute;
-    top: 0;
-    right: 20px;
+    top: 5%;
+    right: 10%;
 }
 .favorite:hover{
     cursor: pointer;
-    color: var(--favorite-color-card-hover);
-    -webkit-text-stroke: 2px var(--favorite-color-card-hover);
+    color: var(--favorite-color-card-hover-color);
+    -webkit-text-stroke: 2px var(--favorite-stroke-card-hover-color);
 }
 .top > img {
-    width: 180px;
-    height: 180px;
+    width: 70%;
     border-radius: 50%;
     object-fit: cover;
-    margin: 40px auto 0px auto;
+    margin: 10% auto 0;
     border: 3px solid var(--imagen-card-shadow);
+    position: relative;
+    aspect-ratio: 1;
 }
 
 .middle{
@@ -41,33 +42,30 @@
     grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-content: center;
+    height: 20%;
 }   
 .title{
-    font-size: 30px;
+    font-size: 1.2em;
     text-align: center;
     color: var(--color-card);
 }
 .description{
     color: var(--color-card-description);
-    font-size: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    font-size: 1em;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: 90px;
 }
-.time{
-    font-size: 25px;
-    margin-left: 20px;
+.description > .time{
+    color: var(--color-card-description-color);
 }
-.calificacion{
-    font-size: 25px;
-    margin-right: 20px;
+.description > .calificacion{
+    color: var(--color-card-description-color);
 }
 .star{
     color: var(--star-card-color);
-    font-size: 35px;
+    font-size: 1.3em;
 }
 .star:hover{
     cursor: pointer;
@@ -78,8 +76,18 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-top: 10%;
 }
 .price{
-    font-size: 25px;
-    margin: 0px 0px 34px 30px;
+    font-size: 1em;
+    margin: 0 0 15% 15%;
+}
+.bottom > .buttonaddcart {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    background-color: var(--button-background-color);
+    color: var(--button-color);
+    border: none;
+    cursor: pointer;
 }

@@ -1,11 +1,11 @@
-.buttonlocation{
+.buttonnotification{
     width: 50px;
     height: 50px;
 }
-.buttonlocation > img{
+.buttonnotification > img{
     width: 100%;
     height: 100%;
 }
-.buttonlocation:hover{
+.buttonnotification:hover{
     cursor: pointer;
 }

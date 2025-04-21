@@ -3,6 +3,8 @@
     --secondary-background-color: #4CAF50;
     --primary-text-color: #333333;
     --secondary-text-color: #ffffff;
+    --tertiary-text-color: #b4b4b4;
+    --quaternary-text-color: #4CAF50;
 
     /* Button AddCart colors */
     --button-addcart-background-color: #4CAF50;
@@ -20,21 +22,22 @@
     --button-secondary-background-hover-color: #f0f0f0;
     --button-secondary-color-hover: #45a049;
 
-    /* ButtonFilter colors */
-    --button-filter-background-color: #4CAF50;
-    --button-filter-color: #ffffff;
-    --button-filter-background-hover-color: #45a049;
-    --button-filter-color-hover: #ffffff;
+    /* Button colors */
+    --button-background-color: #4CAF50;
+    --button-color: #ffffff;
+    --button-background-hover-color: #45a049;
+    --button-color-hover: #ffffff;
 
     /* SearchBar colors */
     --background-search-color: #ffffff;
-    --color-search-color: #333333;
+    --search-text-color: #b4b4b4;
 
     /* Card colors */
-    --background-card-color: #ffffff;
+    --background-card-color: #ebebeb;
     --color-card-color: #333333;
+    --color-card-description-color: #7a7a7a;
     --shadow-color-card-color: rgba(0, 0, 0, 0.1);
-    --favorite-color-card-color: #ffffff;
+    --favorite-color-card-color: #ebebeb;
     --favorite-stroke-card-color: #b4b4b4;
     --favorite-color-card-hover-color: #ff0000;
     --favorite-stroke-card-hover-color: #ff0000;
@@ -42,4 +45,8 @@
     --color-card-description-color: #b4b4b4;
     --star-card-color: #ffd700;
     --star-card-color-hover: #b4b4b4;
+}
+
+.green{
+    color: var(--quaternary-text-color);
 }

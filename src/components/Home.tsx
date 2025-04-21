@@ -1,23 +1,23 @@
-import ButtonChat from './ButtonChat'
-import ButtonHome from './ButtonHome'
+import './Home.css'
+import ButtonProfile from './ButtonProfile'
 import ButtonLocation from './ButtonLocation'
 import ButtonMenu from './ButtonMenu'
-import ButtonNotification from './ButtonNotification'
-import ButtonProfile from './ButtonProfile'
-import ButtonSearch from './ButtonSearch'
-import ButtonShoppingCart from './ButtonShoppingCart'
-import ButtonHeart from './ButtonHeart'
-import './Home.css'
+import ButtonChat from './ButtonChat'
 import Card from './Card'
+import ButtonHome from './ButtonHome'
+import ButtonHeart from './ButtonHeart'
+import ButtonNotification from './ButtonNotification'
+import ButtonShoppingCart from './ButtonShoppingCart'
+import SearchBar from './SearchBar'
 
 function Home() {
     return (
-        <div className="container">
+        <div className="home-container">
             <div className="navigation">
                 <ButtonMenu />
                 <div className="location">
                     <ButtonLocation />
-                    <span>Location</span>
+                    <span>East Blue</span>
                 </div>
                 <ButtonProfile />
             </div>
@@ -32,45 +32,35 @@ function Home() {
             </div>
 
             <div className="search">
-                <ButtonSearch />
+                <SearchBar />
             </div>
 
             <div className="categories">
-                <div className="category">
-                    <span>Food</span>
-                    <span>Fruits</span>
-                    <span>Vegetables</span>
-                    <span>Grocery</span>
-                </div>
+                <span className='green'>Food</span>
+                <span>Fruits</span>
+                <span>Vegetables</span>
+                <span>Grocery</span>
             </div>
 
             <div className="products">
-                <div className="product">
-                    <Card />
-                    <Card />
-                </div>
-                <div className="product">
-                    <Card />
-                    <Card />
-                </div>
-                <div className="product">
-                    <Card />
-                    <Card />
-                </div>
-                <div className="product">
-                    <Card />
-                    <Card />
-                </div>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
             </div>
 
             <div className="footer">
-                <div className="footer-content">
-                    <ButtonHome /> 
-                    <ButtonChat /> 
-                    <ButtonShoppingCart />
-                    <ButtonNotification />
-                    <ButtonHeart />
-                </div>
+                <ButtonHome />
+                <ButtonChat />
+                <ButtonShoppingCart />
+                <ButtonNotification />
+                <ButtonHeart />
             </div>
         </div>
     )

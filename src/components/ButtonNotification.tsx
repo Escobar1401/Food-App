@@ -2,7 +2,7 @@ import './ButtonNotification.css'
 
 function ButtonNotification() {
     return  (
-        <div className="buttonlocation">
+        <div className="buttonnotification">
             <img src="src/assets/notification.svg" alt="icon" />
         </div>
     )
