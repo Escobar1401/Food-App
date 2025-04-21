@@ -1,14 +1,15 @@
-import './ButtonPrimary.css';
+import './ButtonPrimary.css'
 
-function ButtonPrimary() {
+interface ButtonPrimaryProps {
+    text: string;
+}
 
+function ButtonPrimary({ text }: ButtonPrimaryProps) {
     return (
-        <>
-            <div className="container">
-                <button className="button-primary">Button</button>
-            </div>
-        </>
+        <button className="button-primary">
+            {text}
+        </button>
     )
 }
 
-export default ButtonPrimary
+export default ButtonPrimary 

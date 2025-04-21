@@ -1,0 +1,129 @@
+.food-details-container {
+    background-color: var(--secondary-background-color);
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+}
+.header > .buttonback{
+    height: 40px;
+    width: 40px;
+}
+.header > span {
+    color: var(--secondary-text-color);
+    font-size: 24px;
+}
+.header > .buttonfavorite{
+    height: 40px;
+    width: 40px;
+}
+
+.content {
+    margin-top: 150px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--primary-background-color);
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+.content > .food-image{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border: 5px solid var(--primary-background-color);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -150px;
+}
+
+.food-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.food-info {
+    color: var(--primary-text-color);
+}
+
+.food-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary-text-color);
+}
+
+.food-price {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.food-price > .add-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-text-color);
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+}
+.food-price > .add-item > button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-text-color);
+}
+
+.food-status {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--tertiary-text-color);
+}
+
+.food-description {
+    margin-top: 20px;
+    color: var(--tertiary-text-color);
+    margin-bottom: 20px;
+}
+
+.food-description > .food-description-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-text-color);
+    margin-bottom: 20px;
+}
+
+.food-description > .food-description-text > .food-description-text-read-more {
+    margin-top: 20px;
+    cursor: pointer;
+    color: var(--quaternary-text-color);
+}
+
+.button-food-details-add-cart {
+    height: 50px;
+    width: 100%;
+}
+

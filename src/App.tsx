@@ -3,6 +3,7 @@ import ButtonSecondary from './components/ButtonSecondary'
 import saladLogo from './assets/salad-logo.jpg'
 import { Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
+import FoodDetails from './components/FoodDetails'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </div>
       } />
       <Route path="/home" element={<Home />} />
+      <Route path="/food/:id" element={<FoodDetails />} />
     </Routes>
   )
 }
