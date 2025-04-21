@@ -1,9 +1,10 @@
 import './ButtonFilter.css'
+import filterIcon from '../assets/filter.svg'
 
 function ButtonFilter() {
     return (
         <div className="buttonfilter">
-            <img src="src/assets/filter.svg" alt="icon" />
+            <img src={filterIcon} alt="icon" />
         </div>
     )
 }

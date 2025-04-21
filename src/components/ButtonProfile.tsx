@@ -1,9 +1,10 @@
 import './ButtonProfile.css'
+import profileIcon from '../assets/profile.jpg'
 
 function ButtonProfile() {
     return (
         <div className="buttonprofile">
-            <img src="src/assets/profile.jpg" alt="profile" />
+            <img src={profileIcon} alt="profile" />
         </div>
     )
 }

@@ -1,9 +1,10 @@
 import './ButtonChat.css'
+import chatIcon from '../assets/chat.svg'
 
 function ButtonChat() {
     return (
         <div className="buttonchat">
-            <img src="src/assets/chat.svg" alt="icon" />
+            <img src={chatIcon} alt="icon" />
         </div>
     )
 }

@@ -1,9 +1,10 @@
 import './ButtonLessthan.css'
+import lessThanIcon from '../assets/less-than.svg'
 
 function ButtonLessthan() {
     return (
         <div className="buttonlessthan">
-            <img src="src/assets/less-than.svg" alt="icon" />
+            <img src={lessThanIcon} alt="icon" />
         </div>
     )
 }

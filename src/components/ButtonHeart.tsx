@@ -1,9 +1,10 @@
 import './ButtonHeart.css'
+import heartIcon from '../assets/heart.svg'
 
 function ButtonHeart() {
     return (
         <div className="buttonheart">
-            <img src="src/assets/heart.svg" alt="icon" />
+            <img src={heartIcon} alt="icon" />
         </div>
     )
 }

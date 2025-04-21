@@ -1,11 +1,13 @@
 import './Card.css'
 import ButtonAddCart from './ButtonAddCart'
+import avocadaSalad from '../assets/avocada_salad.jpg'
+
 function Card() {
     return (
         <div className="card">
             <div className="top">
                 <div className="favorite">♥</div>
-                <img src="src/assets/avocada_salad.jpg" alt="avocada salad" />
+                <img src={avocadaSalad} alt="avocada salad" />
             </div>
 
             <div className="middle">

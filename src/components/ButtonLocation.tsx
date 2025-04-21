@@ -1,9 +1,10 @@
 import './ButtonLocation.css'
+import locationIcon from '../assets/location.svg'
 
 function ButtonLocation() {
     return (
         <div className="buttonlocation">
-            <img src="src/assets/location.svg" alt="icon" />
+            <img src={locationIcon} alt="icon" />
         </div>
     )
 }
